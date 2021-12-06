@@ -1,4 +1,4 @@
-class cvecli < Formula
+class Cvecli < Formula
     desc "A CLI tool that allows CNAs to manage their organisation and submit CVEs"
     homepage "https://github.com/wizedkyle/cvecli"
     url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.1.0_darwin_arm64.tar.gz"
