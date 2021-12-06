@@ -23,10 +23,8 @@ class Cvecli < Formula
         sha256 ""
     end
 
-    conflicts_with "cvecli"
-
     def install
-      bin.install "cvecli"
+      bin.install "bin/cvecli"
     end
 
     test do
