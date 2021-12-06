@@ -24,7 +24,7 @@ class Cvecli < Formula
     end
 
     def install
-      bin.install "bin/cvecli"
+      bin.install "cvecli"
     end
 
     test do
