@@ -1,7 +1,6 @@
 class Cvecli < Formula
     desc "cvecli"
     homepage "https://github.com/wizedkyle/cvecli"
-    version "0.1.0"
 
     if OS.mac? && Hardware::CPU.intel?
         url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.1.0_darwin_arm64.tar.gz"
