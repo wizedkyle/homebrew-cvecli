@@ -19,6 +19,7 @@ class Cvecli < Formula
 
             def install
                 bin.install "cvecli"
+                ls_sf "cvecli", "/opt/homebrew/bin/cvecli"
             end
         end
     end
