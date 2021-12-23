@@ -6,7 +6,7 @@ class Cvecli < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "a983a33a4a30777884650bbc77557e1b430ea6a348360b3473d7e11c9d378ad0"
+      sha256 "31dd0528af72657a1f38f3b3c4ef48e12845dea69a17562041e4b93b76d1690b"
 
       def install
         bin.install "cvecli"
@@ -15,7 +15,7 @@ class Cvecli < Formula
 
     if Hardware::CPU.arm?
       url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "9bf37f1aadbae91fbbb926ecd6585a6f26201560d433e593ac5fa706d59e647d"
+      sha256 "b5a2707c3df98a5dc9f2a6e8046d2a39663c2d8cb72b64f5a9b7bb051528ed60"
 
       def install
         bin.install "cvecli"
@@ -26,7 +26,7 @@ class Cvecli < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.1.0_linux_amd64.tar.gz"
-      sha256 "e52beabc3590e2f3769e024b7acc68014c0ecd9b5da76118d578b777abf7c82f"
+      sha256 "7b67f7d8b27fdd91f194a6ce175de70ca38f955e03180527790042ba7011c31f"
 
       def install
         bin.install "cvecli"
@@ -35,7 +35,7 @@ class Cvecli < Formula
 
     if Hardware::CPU.arm?
       url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.1.0_linux_amd64.tar.gz"
-      sha256 "83be35f59dbd589af6973ea2b7de6b2eda382887672874d1771d132b21b83320"
+      sha256 "e28ed028b989f313b060e8f3bf96aedb221c899ba71dbeb29262a26c1ea15cfc"
 
       def install
         bin.install "cvecli"
