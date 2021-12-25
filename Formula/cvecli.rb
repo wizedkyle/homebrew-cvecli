@@ -1,12 +1,12 @@
 class Cvecli < Formula
   desc "cvecli"
   homepage "https://github.com/wizedkyle/cvecli"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/wizedkyle/cvecli/releases/download/0.2.0/cvecli_0.2.0_darwin_amd64.tar.gz"
-      sha256 "f94d257d46ba23a1a002b7513bc1ff3d80d9314ba53dac460eb064ff70af714c"
+      url "https://github.com/wizedkyle/cvecli/releases/download/0.3.0/cvecli_0.3.0_darwin_amd64.tar.gz"
+      sha256 "b18e50b7f9a7d1b5027827709d5d5de6bc4447a31200a6d82c6034ea5f7197b6"
 
       def install
         bin.install "cvecli"
@@ -14,8 +14,8 @@ class Cvecli < Formula
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/wizedkyle/cvecli/releases/download/0.2.0/cvecli_0.2.0_darwin_arm64.tar.gz"
-      sha256 "d6dc98b081ce2c1758f8355e847136f8cc2f4d50bbb25f53e5996c5ed7978a07"
+      url "https://github.com/wizedkyle/cvecli/releases/download/0.3.0/cvecli_0.3.0_darwin_arm64.tar.gz"
+      sha256 "287a33a3278e412e5e4d048bb703514d5e990b09a356222244d02f986addec28"
 
       def install
         bin.install "cvecli"
@@ -25,8 +25,8 @@ class Cvecli < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/wizedkyle/cvecli/releases/download/0.2.0/cvecli_0.2.0_linux_amd64.tar.gz"
-      sha256 "5a8c0965624773aaaf6821cf1934ba9973f8595176c6bdeeea4810d3ca15e8bf"
+      url "https://github.com/wizedkyle/cvecli/releases/download/0.3.0/cvecli_0.3.0_linux_amd64.tar.gz"
+      sha256 "ef065d8999b7e1c1de934e65c7813920147eab30aee7bdec569c03ba9844a2ab"
 
       def install
         bin.install "cvecli"
@@ -34,8 +34,8 @@ class Cvecli < Formula
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.2.0_linux_amd64.tar.gz"
-      sha256 "fb3ad01e128c1f1b942de4f0a464c0acdf8091f1abc6d78805a89012a876ec8f"
+      url "https://github.com/wizedkyle/cvecli/releases/download/0.1.0/cvecli_0.3.0_linux_amd64.tar.gz"
+      sha256 "83b0f6dcbb359bc5a404128d895671f4391b7311bf4658a749300c60abbc3dd3"
 
       def install
         bin.install "cvecli"
